@@ -1,17 +1,22 @@
 html{
     overflow-y: scroll;
 }
+h2{
+  font-size: 25px;
+  color: #7d8584;
+}
 #jasmineBody{
     padding: 10px;
     margin: 10px;
-    border: 12px double #a5b6b4;
+    /*border: 12px double #a5b6b4;*/
     padding: 30px;
     background-color: white
 }
 .jasmine-head {
     background: linear-gradient(45deg, #CCFFFF, #FFCCCC);
     padding: 30px;
-    color:#7d8584
+    color:#7d8584;
+    margin: 15px;
 }
 #jasmine-head-border {
     border-bottom: 12px solid #a5b6b4;
@@ -41,9 +46,9 @@ html{
 }
 .jasmineP {
     border-top: 6px solid #a5b6b4;
-    padding: 5px;
+    padding: 10px;
     color: #7d8584;
-    margin: 5px;
+    margin: 10px;
 }
 .jasmineAnchor-tag {
     border: 8px solid aqua;
